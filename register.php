@@ -117,12 +117,12 @@
             box-sizing: border-box;
         }
 
-        .btn-login {
+        .create-acc {
             text-align: center;
             margin-top: 20px;
         }
 
-        .btn-login input {
+        .create-acc input {
             background-color: orange;
             color: #000;
             padding: 10px 20px;
@@ -134,7 +134,7 @@
             transition: background-color 0.3s;
         }
 
-        .btn-login input:hover {
+        .create-acc input:hover {
             background-color: #ff9900;
         }
 
@@ -171,17 +171,17 @@
 <section class="login">
     <div class="login-content">
         <h4>Register Your Account</h4>
-        <form action="buat-akun.php" method="POST">
+        <form action="conn/register.php" method="POST">
             <div class="input-box">
                 <label>Your Name</label> <br>
                 <i class="fa-solid fa-user" style="color: orange"></i>
-                <input type="text" name="nama" placeholder="Name" required>
+                <input type="text" name="name" placeholder="Name" required>
             </div>
 
             <div class="input-box">
                 <label>Phone Number</label> <br>
                 <i class="fa fa-phone" style="color: orange"></i>
-                <input type="text" name="no_telepon" placeholder="Number" required>
+                <input type="text" name="phone_number" placeholder="Number" required>
             </div>
 
             <div class="input-box">
@@ -193,11 +193,11 @@
             <div class="input-box">
                 <label>Create Password</label> <br>
                 <i class="fa-solid fa-key" style="color: orange"></i>
-                <input type="password" name="password" placeholder="Password" required >
+                <input type="password" name="password" placeholder="Password" required>
             </div>
 
-            <div class="btn-login">
-            <input type="submit" value="Create Account">
+            <div class="create-acc">
+                <input type="submit" name="create-acc" value="Create Account">
             </div>
         </form>
     </div>
@@ -205,3 +205,9 @@
 
 </body>
 </html>
+
+
+
+
+
+

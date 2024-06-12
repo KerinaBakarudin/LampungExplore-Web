@@ -155,11 +155,11 @@
     <div class="logo">Lampung Explore</div>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="dashboard.php">Home</a></li>
             <li><a href="#">Destination</a></li>
             <li><a href="#">Rating and Review</a></li>
             <li><a href="#">Booking</a></li>
-            <li><a href="login.php" class="active">Login</a></li>
+            <li><a href="conn/login.php" class="active">Login</a></li>
         </ul>
     </nav>
 </header>
@@ -167,7 +167,7 @@
 <section class="login">
     <div class="login-content">
         <h4>Please Login For More Experience</h4>
-        <form action="login.php" method="POST">
+        <form action="conn/login.php" method="POST">
             <div class="input-box">
                 <i class="fa-solid fa-user" style="color: orange"></i>
                 <input type="text" name="username" placeholder="Username" required>
@@ -187,3 +187,9 @@
 
 </body>
 </html>
+
+
+
+
+
+
